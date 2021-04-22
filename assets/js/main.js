@@ -4,25 +4,7 @@ $(document).ready(function () {
   $(".sidenav").sidenav();
 });
 
-//Get the top button
-var mybutton = document.getElementById("myBtn");
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  //applied for button in footer section
-  scrollFunction();
-};
-function scrollFunction() {
-  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;//supported by more web browser than below
-  document.documentElement.scrollTop = 0;
-}
+
 
 //Footer and Navbar
 
@@ -39,7 +21,6 @@ let header = $(`
         <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
         <li class="nav-item"><a class="nav-link" href="certificates.html">Certificates</a></li>
         <li class="nav-item"><a class="nav-link" href="projects.html">projects</a></li>
-        <li class="nav-item"><a target="-blank" class="nav-link" href="assets/images/Resume-Anjali.jpg">Resume</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 
         <!--TOGGLE FOR LIGHT/DARK MODE-->
@@ -67,7 +48,6 @@ let header = $(`
 <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
 <li class="nav-item"><a class="nav-link" href="certificates.html">Certificates</a></li>
 <li class="nav-item"><a class="nav-link" href="projects.html">projects</a></li>
-<li class="nav-item"><a target="-blank" class="nav-link" href="assets/images/Resume-Anjali.jpg">Resume</a></li>
 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 
 <!--TOGGLE FOR LIGHT/DARK MODE-->
