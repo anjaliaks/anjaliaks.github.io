@@ -15,7 +15,7 @@
 
 You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [anjaliaks](https://github.com/anjaliaks/anjaliaks.github.io). Thanks!
 
-My personal portfolio website features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio website features some of my github projects as well as my experience and technical skills.<br/>
 
 # Tech Stack :
 
